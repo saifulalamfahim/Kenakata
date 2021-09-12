@@ -19,7 +19,7 @@
                 <img src="images/—Pngtree—red and black logo_5517319.png" width="125px">
             </div>
             <nav>
-                <ul>
+                <ul id="MenuItems">
                     <li><a href="">Home</a></li>
                     <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
@@ -27,11 +27,12 @@
                     <li><a href="">Account</a></li>
                 </ul>
             </nav>
-            <img src="images/—Pngtree—red and black logo_5517319.png" width="30px" height="30px" alt="">
+            <img src="images/—Pngtree—red and black logo_5517319.png" width="30px" height="30px">
+           <img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">
             <div class="col-2">
-                <h1>Lorem ipsum dolor sit <br> amet consectetur.</h1>
+                <h1>Lorem ipsum dolor sit <br> consectetur.</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus quis ipsum quae doloribus <br> exercitationem, dolor praesentium, tempore ipsam, veniam est. Nulla ipsam magnam facere?
                 </p>
@@ -323,7 +324,7 @@
                 <div class="footer-col-2">
                     <img src="images/36153-3-mcdonalds-logo-transparent.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum ex fuga.</p>
-                </div>
+                </div> 
                 <div class="footer-col-3">
                     <h3>Useful Links</h3>
                    <ul>
@@ -347,5 +348,22 @@
             <p class="copyright">Copyright 2121 by Saiful Alam</p>
         </div>
     </div>
+
+
+    <!-- java script  -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        menuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 </html>
