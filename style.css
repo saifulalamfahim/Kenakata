@@ -406,4 +406,14 @@ input:focus{
     .container{
         padding-left: 45px;
     }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    /* .single-product h1{
+        font-size: 26px;
+        line-height: 320px;
+    } */
 }
