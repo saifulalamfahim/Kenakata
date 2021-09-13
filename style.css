@@ -364,6 +364,23 @@ select:focus{
 input:focus{
     outline: none;
 }
+.single-product .fa{
+    color: #ff523b;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.small-img-row .small-img-col img{
+    height: 150px;
+    width: 100px;
+    margin-top: 30px;
+}
+
 
 
 
