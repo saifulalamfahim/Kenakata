@@ -14,32 +14,31 @@
 <body>
    <div class="header">
     <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="images/—Pngtree—red and black logo_5517319.png" width="125px"></a>
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </nav>
-           <a href="cart.html"> <img src="images/—Pngtree—red and black logo_5517319.png" width="30px" height="30px"></a>
-           <img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" class="menu-icon" onclick="menutoggle()">
+        <!-- nav Start -->
+       <nav>
+        <a href="" class="logo">LOGO</a>   <!-- <img src="images/—Pngtree—red and black logo_5517319.png" height="50px" alt=""> -->
+        <div class="nav-link" id="navLinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+
+             <ul>
+                 <li><a href="">HOME</a></li>
+                 <li><a href="">ABOUT</a></li>
+                 <li><a href="">COURSE</a></li>
+                 <li><a href="">BLOG</a></li>
+                 <li><a href="">CONTACT</a></li>
+             </ul>
         </div>
+        <i class="fa fa-bars " onclick="showMenu()"></i>
+    </nav>
+<!-- nav End -->
         <div class="row">
             <div class="col-2">
-                <h1>Lorem ipsum dolor sit <br> consectetur.</h1>
+                <h1>GRAB YOUR FOOD <br> RIGHT NOW</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus quis ipsum quae doloribus <br> exercitationem, dolor praesentium, tempore ipsam, veniam est. Nulla ipsam magnam facere?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus quis ipsum quae doloribus exercitationem,  <br> dolor praesentium, tempore ipsam, veniam est. Nulla ipsam <br>magnam facere?
                 </p>
-                <a href="" class="btn"> Explore Now &#8594</a>
-            </div>
-            <div class="col-2">
-                <img src="images/1592989926.nittabazar.com_corn-flour-lose-atta-removebg-preview.png">
+                <br>
+                <a href="" class="hero-btn"> Explore Now &#8594</a>
             </div>
         </div>
     </div>
@@ -50,13 +49,13 @@
     <div class="small-container">
         <div class="row">
             <div class="col-3">
-                <img src="Images/martha-dominguez-de-gouveia-9UtO1v50BYM-unsplash.jpg"  width="45px">
+                <img src="Images/Slide3.PNG" >
             </div>
             <div class="col-3">
-                <img src="Images/ave-calvar-KDmkI7e8ma8-unsplash.jpg" alt="">
+                <img src="Images/Slide1.PNG" alt="">
             </div>
             <div class="col-3">
-                <img src="Images/brando-makes-branding-kh2dWtw4sjk-unsplash.jpg" alt="">
+                <img src="Images/Slide2.PNG" alt="">
             </div>
         </div>
     </div>
@@ -365,5 +364,16 @@
             }
         }
     </script>
+
+    <!-- JavaScrpt -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
 </body>
 </html>
