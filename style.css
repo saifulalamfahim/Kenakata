@@ -212,6 +212,9 @@ p{
 .col-row .col-4{
     margin-top: 30px;
 }
+.col-4-row{
+    margin-top: 120px;
+}
 
 
 .col-4{
@@ -604,7 +607,9 @@ form a{
     padding: 30px 2px;
 }
 .about-col img{
-    width: 100%;
+    /* width: 100%; */
+    height: 450px;
+    width: 500px;
 }
 .about-col  h1{
     padding-top: 0;
@@ -686,7 +691,7 @@ form a{
     }
 }
 @media only screen and (max-width: 950px){
-    /* navbar content start */
+    /* navbar and header content start */
     .text-box h1{
         font-size: 20px;
     }
@@ -695,7 +700,7 @@ form a{
     }
     .nav-link{
         position: fixed;
-        background: #f44336;
+        background: black;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -714,8 +719,67 @@ form a{
     .nav-link ul{
         padding: 30px;
     }
-     /* navbar content end */
+    .br{
+        display: none;
+    }
+    .col-header{
+        flex-basis: 100%;
+    }
+    
+    .col-2 h1{
+        font-size: 85px;
+        line-height: 90px;
+       
+        margin-top: 70px;
+    }
+    .header{
+        background-image: none;
+        background: #ed7d31;
+    }
+     /* navbar and header content end */
+     
     .container-img img{
         display: none;
     }
+    .layer{
+        display: none;
+    }
+    .col-4{
+        margin-bottom: 50px;
+        margin-top: -20px;
+    }
+    .col-4 img{
+        width: 100%;
+    }
+    .small-container h2{
+        margin-top: -60px;
+    }
+    .col-row{
+        display: none;
+    }
+    .about-me{
+        margin-top: -40px;
+        width: 100%;
+    }
+    .about-col img{
+        height: 450px;
+        width: 450px;
+    }
+    .col-test{
+        margin-top: -90px;
+        margin-bottom: 60px;
+    }
+    .col-4-row{
+        margin-top: 20px;
+    }
+    .brands{
+        display: none;
+    }
+    .footer hr{
+        display: none;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+   
 }
