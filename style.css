@@ -208,7 +208,9 @@ p{
    margin-left: -402px;
    margin-top: -300px;
 }
-
+.row-col-con{
+    margin-top: 150px;
+}
 .col-row .col-4{
     margin-top: 30px;
 }
@@ -419,6 +421,8 @@ select:focus{
 /* -----------single-product------------ */
 .single-product{
     margin-top: 80px;
+    background: #555;
+    padding: 40px;
 }
 .single-product .col-2 img{
     padding: 0;
@@ -432,6 +436,10 @@ select:focus{
     margin: 20px 0;
     font-size: 22px;
     font-weight: bold;
+    color: white;
+}
+.col-up{
+    margin-top: -100px;
 }
 .single-product select{
     display: block;
@@ -780,6 +788,30 @@ form a{
     }
     .copyright{
         margin-top: 20px;
+    }
+    .row-col-con{
+        display: none;
+    }
+    .con{
+        display: none;
+    }
+    .single-product{
+        margin-top: 0px;
+    }
+    .single-product .col-2 img{
+        height: 380px;
+        width: 320px;
+    }
+    .single-product h4{
+        color: white;
+    }
+    .single-product .fa{
+        color: #ba6521;
+    }
+    .small-img-row .small-img-col img{
+        height: 150px;
+        width: 100px;
+      
     }
    
 }
