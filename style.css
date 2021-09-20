@@ -478,6 +478,7 @@ input:focus{
 /* ------------Cart-------------- */
 .cart-page{
     margin: 80px auto;
+
 }
 table{
     width: 100%;
@@ -491,7 +492,7 @@ th{
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #ff523b;
+    background: #ed7d31;
     font-weight: normal;
 }
 .cart-info img{
@@ -508,7 +509,7 @@ td input{
     padding: 5px;
 }
 td a{
-    color: #ff523b;
+    color: #ed7d31;
     font-size: 12px;
 }
 
@@ -517,7 +518,7 @@ td a{
     justify-content: flex-end;
 }
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #ed7d31;
     width: 100%;
     max-width: 400px;
 }
@@ -526,6 +527,12 @@ td:last-child{
 }
 th:last-child{
     text-align: right;
+}
+.cart-info p{
+    color: black;
+}
+.cart-info small{
+    color: black;
 }
 
 
@@ -700,9 +707,6 @@ form a{
 }
 @media only screen and (max-width: 950px){
     /* navbar and header content start */
-    .text-box h1{
-        font-size: 20px;
-    }
     .nav-link ul li{
        display: block;
     }
@@ -805,6 +809,9 @@ form a{
     .single-product h4{
         color: white;
     }
+    .single-product h1{
+        font-size: 50px;
+    }
     .single-product .fa{
         color: #ba6521;
     }
@@ -813,5 +820,116 @@ form a{
         width: 100px;
       
     }
-   
+}
+@media(max-width: 700px){
+    /* --navber and header start */
+    .container{
+        padding-left: 35px;
+        padding-right: 45px;
+    }
+    .col-2 h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+    .col-2 p br{
+        display: none;
+    }
+    .br{
+        display: block;
+    }
+    .header{
+        background-image: none;
+        background: #ed7d31;
+        min-height: 75vh;
+    }
+    /* --navber and header end */
+
+    .logo{
+        margin-left: 20px;
+    }
+
+
+
+
+    .offer-img-3{
+     margin-left: 10px;
+    }
+    .offer{
+        background: radial-gradient(#ba6521,#ed7d31);
+        padding-top: 10px;
+    }
+    .col-off{
+        margin-left: 60px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .offer img{
+        height: 250px;
+        width: 350px;
+    }
+
+
+
+
+
+    /* .categories{
+        margin-left: 25px;   
+    } */
+    .col-3{
+        flex-basis: 100%;
+    }
+    .col-3 img{
+        /* width: 100%; */
+        height: 300px;
+        width: 400px;
+    }
+    .small-product{
+        margin-left: 50px;
+    }
+    .footer-col-1{
+        display: none;
+    }
+    .footer-col-3{
+        display: none;
+    }
+    .footer-col-4{
+        display: none;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .row-2{
+        display: none;
+    }
+    .col-4-row{
+        margin-top: 40px;
+    }
+    .sub-container{
+        height: 40vh;
+    }
+    .about-me{
+        width: 90%;
+    }
+    .about-col{
+        flex-basis: 100%;
+    }
+    .about-col img{
+        height: 250px;
+        width: 300px;
+    }
+    .contact-col{
+        flex-basis: 100%;
+    }
+    .single-product .col-2 img{
+        height: 280px;
+        width: 220px;
+    }
+    .single-product h1{
+        margin-top: 80px;
+       
+    }
+    .small-img-row{
+        display: none;
+    }
 }
