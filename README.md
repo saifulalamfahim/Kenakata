@@ -3,6 +3,6 @@
 
 This is an online E-food based website. It is
 developed by just HTML5, CSS and little bit of javascript.
-# live site: 
+# live site: https://blissful-thompson-3ea297.netlify.app/
 
 
